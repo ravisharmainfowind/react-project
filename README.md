@@ -59,22 +59,7 @@ src > data > schema.js
 and enable mutation. This preparation
 will enable to realize CRUD operations locally
 
-### 4. How to create db
 
-Create db. For instance name it "sequelize" and add posts table to it,
-your table should have same structure as you can see on the screenshot
-<br>
-![table structure](table.png)
-
-> [http://localhost:3000/](http://localhost:3000/) — Node.js server<br>
-> [http://localhost:3000/graphql](http://localhost:3000/graphql) — GraphQL server and IDE<br>
-
-Now you can open your web app in a browser, on mobile devices and start
-hacking. Whenever you modify any of the source files inside the `/src` folder,
-the module bundler ([Webpack](http://webpack.github.io/)) will recompile the
-app on the fly and refresh all the connected browsers.
-
-For more info please refer to [getting started](./docs/getting-started.md) guide to download and run the project (Node.js >= 6.5)
 
 ## Support
 For any additional information please go to our [**support forum**](https://flatlogic.com/forum) and raise your questions or feedback provide there. We highly appreciate your participation!
